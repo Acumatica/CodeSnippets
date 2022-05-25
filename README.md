@@ -8,6 +8,11 @@ It provides templates for:
    * Generic signature
    * Short generic signature for graph field events
 
+# How to Install Code Snippets
+* Download snippets from the [src](src) folder
+* In your Visual Studio open "Code Snippets Manager" window ("Tools" -> "Code Snippets Manager")
+* Add folders with downloaded code snippets. See links in the "Details on Visual Studio Code Snippets" for more details.
+
 # Details on Visual Studio Code Snippets
 * [Code snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2022)
 * [Walkthrough: Create a code snippet](https://docs.microsoft.com/en-us/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2022)
