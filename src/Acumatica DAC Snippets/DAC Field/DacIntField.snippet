@@ -12,6 +12,7 @@
 Template of the integer DAC field in Acumatica Framework
 
 #region [Field]
+/// &lt;inheritdoc cref="[Field]"/&gt;
 public abstract class [bqlField] : BqlInt.Field&lt;[bqlField]&gt; {}
 				
 [PX[DB]Int]
@@ -53,6 +54,7 @@ public virtual int? [Field]
 			</Declarations>
 			<Code Language="CSharp" Kind="method decl">
 				<![CDATA[#region $Field$
+		/// <inheritdoc cref="$Field$"/>
 		public abstract class $bqlField$ : BqlInt.Field<$bqlField$> { }
 				
 		[PX$DB$Int]
