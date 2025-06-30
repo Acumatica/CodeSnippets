@@ -12,15 +12,16 @@
 Template of the string DAC field in Acumatica Framework
 
 #region [Field]
+/// &lt;inheritdoc cref="[Field]"/&gt;
 public abstract class [bqlField] : BqlString.Field&lt;[bqlField]&gt; {}
-				
+
 [PX[DB]String([Length], IsUnicode = true)]
 [PXUIField(DisplayName = "[Field]")]
-public virtual string [Field] 
-{ 
+public virtual string? [Field]
+{
 	get;
 	set;
-}			
+}
 #endregion
 			</Description>
 			<Shortcut>dacFldStr</Shortcut>
@@ -54,15 +55,16 @@ public virtual string [Field]
 					<ID>Length</ID>
 					<ToolTip>Replace with the length of the string field.</ToolTip>
 					<Default>Length</Default>
-				</Literal>		
+				</Literal>
 			</Declarations>
 			<Code Language="CSharp" Kind="method decl">
 				<![CDATA[#region $Field$
+		/// <inheritdoc cref="$Field$"/>
 		public abstract class $bqlField$ : BqlString.Field<$bqlField$> { }
 				
 		[PX$DB$String($Length$, IsUnicode = true)]
 		[PXUIField(DisplayName = "$Field$")]
-		public virtual string $Field$ 
+		public virtual string? $Field$ 
 		{ 
 			get;
 			set;

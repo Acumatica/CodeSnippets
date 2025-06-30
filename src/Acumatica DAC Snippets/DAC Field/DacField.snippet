@@ -12,6 +12,7 @@
 Template of the DAC field in Acumatica Framework
 
 #region [Field]
+/// &lt;inheritdoc cref="[Field]"/&gt;
 public abstract class [bqlField] : Bql[FieldType].Field&lt;[bqlField]&gt; {}
 				
 [PX[DB][FieldType]()]
@@ -58,6 +59,7 @@ public virtual [FieldType]? [Field]
 			</Declarations>
 			<Code Language="CSharp" Kind="method decl">
 				<![CDATA[#region $Field$
+		/// <inheritdoc cref="$Field$"/>
 		public abstract class $bqlField$ : Bql$FieldType$.Field<$bqlField$> { }
 				
 		[PX$DB$$FieldType$()]

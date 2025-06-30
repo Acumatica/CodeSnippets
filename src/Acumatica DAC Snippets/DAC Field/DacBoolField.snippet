@@ -12,6 +12,7 @@
 Template of the boolean DAC field in Acumatica Framework
 
 #region [Field]
+/// &lt;inheritdoc cref="[Field]"/&gt;
 public abstract class [bqlField] : BqlBool.Field&lt;[bqlField]&gt; {}
 				
 [PX[DB]Bool]
@@ -53,6 +54,7 @@ public virtual bool? [Field]
 			</Declarations>
 			<Code Language="CSharp" Kind="method decl">
 				<![CDATA[#region $Field$
+		/// <inheritdoc cref="$Field$"/>
 		public abstract class $bqlField$ : BqlBool.Field<$bqlField$> { }
 				
 		[PX$DB$Bool]
